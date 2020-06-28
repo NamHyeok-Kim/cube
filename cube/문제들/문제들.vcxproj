@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -18,11 +18,27 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="10부제.c" />
+    <ClCompile Include="검증수.c" />
+    <ClCompile Include="과자.c" />
+    <ClCompile Include="그릇.c" />
+    <ClCompile Include="약수구하기.c" />
+    <ClCompile Include="오븐시계.c" />
+    <ClCompile Include="윳놀이.c" />
+    <ClCompile Include="지능형 기차.c" />
+    <ClCompile Include="최댓값.c" />
+    <ClCompile Include="홀수.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt" />
+    <Text Include="문제.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{36b5d7e9-2e6a-4f2f-ad6d-e6bdedff4ccf}</ProjectGuid>
-    <RootNamespace>My60Q</RootNamespace>
+    <ProjectGuid>{f40aed6f-05ce-4eea-9872-a3e6ac7d534a}</ProjectGuid>
+    <RootNamespace>문제들</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,69 +154,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="10번.c" />
-    <ClCompile Include="11번.c" />
-    <ClCompile Include="12번.c" />
-    <ClCompile Include="13번.c" />
-    <ClCompile Include="14번.c" />
-    <ClCompile Include="15번.c" />
-    <ClCompile Include="16번.c" />
-    <ClCompile Include="17번.c" />
-    <ClCompile Include="18번.c" />
-    <ClCompile Include="19번.c" />
-    <ClCompile Include="1번.c" />
-    <ClCompile Include="20번.c" />
-    <ClCompile Include="21번.c" />
-    <ClCompile Include="22번.c" />
-    <ClCompile Include="23번.c" />
-    <ClCompile Include="24번.c" />
-    <ClCompile Include="25번.c" />
-    <ClCompile Include="26번.c" />
-    <ClCompile Include="27번.c" />
-    <ClCompile Include="28번.c" />
-    <ClCompile Include="29번.c" />
-    <ClCompile Include="2번.c" />
-    <ClCompile Include="30번.c" />
-    <ClCompile Include="31번.c" />
-    <ClCompile Include="32번.c" />
-    <ClCompile Include="33번.c" />
-    <ClCompile Include="34번.c" />
-    <ClCompile Include="35번.c" />
-    <ClCompile Include="36번.c" />
-    <ClCompile Include="37번.c" />
-    <ClCompile Include="38번.c" />
-    <ClCompile Include="39번.c" />
-    <ClCompile Include="3번.c" />
-    <ClCompile Include="40번.c" />
-    <ClCompile Include="41번.c" />
-    <ClCompile Include="42번.c" />
-    <ClCompile Include="43번.c" />
-    <ClCompile Include="44번.c" />
-    <ClCompile Include="45번.c" />
-    <ClCompile Include="46번.c" />
-    <ClCompile Include="47번.c" />
-    <ClCompile Include="48번.c" />
-    <ClCompile Include="49번.c" />
-    <ClCompile Include="4번.c" />
-    <ClCompile Include="50번.c" />
-    <ClCompile Include="51번.c" />
-    <ClCompile Include="52번.c" />
-    <ClCompile Include="53번.c" />
-    <ClCompile Include="54번.c" />
-    <ClCompile Include="55번.c" />
-    <ClCompile Include="56번.c" />
-    <ClCompile Include="57번.c" />
-    <ClCompile Include="58번.c" />
-    <ClCompile Include="59번.c" />
-    <ClCompile Include="5번.c" />
-    <ClCompile Include="60번.c" />
-    <ClCompile Include="6번.c" />
-    <ClCompile Include="7번.c" />
-    <ClCompile Include="8번.c" />
-    <ClCompile Include="9번.c" />
-    <ClCompile Include="D:\c\60문제\하트.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

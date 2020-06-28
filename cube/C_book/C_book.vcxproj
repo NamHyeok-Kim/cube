@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{36b5d7e9-2e6a-4f2f-ad6d-e6bdedff4ccf}</ProjectGuid>
-    <RootNamespace>My60Q</RootNamespace>
+    <ProjectGuid>{936e1a24-9853-4ccb-a3c2-faf689eed0e9}</ProjectGuid>
+    <RootNamespace>Cbook</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,67 +139,37 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="10번.c" />
-    <ClCompile Include="11번.c" />
-    <ClCompile Include="12번.c" />
-    <ClCompile Include="13번.c" />
-    <ClCompile Include="14번.c" />
-    <ClCompile Include="15번.c" />
-    <ClCompile Include="16번.c" />
-    <ClCompile Include="17번.c" />
-    <ClCompile Include="18번.c" />
-    <ClCompile Include="19번.c" />
-    <ClCompile Include="1번.c" />
-    <ClCompile Include="20번.c" />
-    <ClCompile Include="21번.c" />
-    <ClCompile Include="22번.c" />
-    <ClCompile Include="23번.c" />
-    <ClCompile Include="24번.c" />
-    <ClCompile Include="25번.c" />
-    <ClCompile Include="26번.c" />
-    <ClCompile Include="27번.c" />
-    <ClCompile Include="28번.c" />
-    <ClCompile Include="29번.c" />
-    <ClCompile Include="2번.c" />
-    <ClCompile Include="30번.c" />
-    <ClCompile Include="31번.c" />
-    <ClCompile Include="32번.c" />
-    <ClCompile Include="33번.c" />
-    <ClCompile Include="34번.c" />
-    <ClCompile Include="35번.c" />
-    <ClCompile Include="36번.c" />
-    <ClCompile Include="37번.c" />
-    <ClCompile Include="38번.c" />
-    <ClCompile Include="39번.c" />
-    <ClCompile Include="3번.c" />
-    <ClCompile Include="40번.c" />
-    <ClCompile Include="41번.c" />
-    <ClCompile Include="42번.c" />
-    <ClCompile Include="43번.c" />
-    <ClCompile Include="44번.c" />
-    <ClCompile Include="45번.c" />
-    <ClCompile Include="46번.c" />
-    <ClCompile Include="47번.c" />
-    <ClCompile Include="48번.c" />
-    <ClCompile Include="49번.c" />
-    <ClCompile Include="4번.c" />
-    <ClCompile Include="50번.c" />
-    <ClCompile Include="51번.c" />
-    <ClCompile Include="52번.c" />
-    <ClCompile Include="53번.c" />
-    <ClCompile Include="54번.c" />
-    <ClCompile Include="55번.c" />
-    <ClCompile Include="56번.c" />
-    <ClCompile Include="57번.c" />
-    <ClCompile Include="58번.c" />
-    <ClCompile Include="59번.c" />
-    <ClCompile Include="5번.c" />
-    <ClCompile Include="60번.c" />
-    <ClCompile Include="6번.c" />
-    <ClCompile Include="7번.c" />
-    <ClCompile Include="8번.c" />
-    <ClCompile Include="9번.c" />
-    <ClCompile Include="D:\c\60문제\하트.c" />
+    <ClCompile Include="fileMOD.c" />
+    <ClCompile Include="textfile생성.c" />
+    <ClCompile Include="text파일 복사.c" />
+    <ClCompile Include="구조체 포인터.c" />
+    <ClCompile Include="구조체 함수.c" />
+    <ClCompile Include="구조체.c" />
+    <ClCompile Include="띵.c" />
+    <ClCompile Include="문자겟수.c" />
+    <ClCompile Include="문자열 문제 4.c" />
+    <ClCompile Include="문자열 문제 8.c" />
+    <ClCompile Include="문자열 문제 9.c" />
+    <ClCompile Include="문자열 문제.c" />
+    <ClCompile Include="삼번.c" />
+    <ClCompile Include="연습.c" />
+    <ClCompile Include="예제 2.c" />
+    <ClCompile Include="예제.c" />
+    <ClCompile Include="이번.c" />
+    <ClCompile Include="이차방정식.c" />
+    <ClCompile Include="일번.c" />
+    <ClCompile Include="입력한 값 까지합.c" />
+    <ClCompile Include="점 사이의 길이.c" />
+    <ClCompile Include="파일 문제.c" />
+    <ClCompile Include="파일 문제3.c" />
+    <ClCompile Include="파일 읽기.c" />
+    <ClCompile Include="파일.c" />
+    <ClCompile Include="파일삭제.c" />
+    <ClCompile Include="프린트 문제 2.c" />
+    <ClCompile Include="프린트문제 1.c" />
+    <ClCompile Include="한 글자씩 쓰기.c" />
+    <ClCompile Include="한 글자씩 읽기.c" />
+    <ClCompile Include="한 줄씩 읽고쓰기.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
