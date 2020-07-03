@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\one">
       <UniqueIdentifier>{ba8933e1-4fc5-4d09-8e73-d0056de2a874}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\two">
+      <UniqueIdentifier>{2813bd14-27ac-4a07-a46f-1581cdd46f96}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10부제.c">
@@ -47,6 +50,18 @@
     </ClCompile>
     <ClCompile Include="홀수.c">
       <Filter>소스 파일\one</Filter>
+    </ClCompile>
+    <ClCompile Include="백설공주와 난쟁이.c">
+      <Filter>소스 파일\one</Filter>
+    </ClCompile>
+    <ClCompile Include="세로읽기.c">
+      <Filter>소스 파일\two</Filter>
+    </ClCompile>
+    <ClCompile Include="자리배정.c">
+      <Filter>소스 파일\two</Filter>
+    </ClCompile>
+    <ClCompile Include="덩치.c">
+      <Filter>소스 파일\two</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
