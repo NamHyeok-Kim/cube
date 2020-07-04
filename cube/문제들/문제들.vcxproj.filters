@@ -63,6 +63,12 @@
     <ClCompile Include="덩치.c">
       <Filter>소스 파일\two</Filter>
     </ClCompile>
+    <ClCompile Include="사이클.c">
+      <Filter>소스 파일\two</Filter>
+    </ClCompile>
+    <ClCompile Include="나는학급회장이다.c">
+      <Filter>소스 파일\two</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
