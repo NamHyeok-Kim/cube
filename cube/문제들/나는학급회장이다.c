@@ -52,6 +52,35 @@ int main()
 			}
 		}
 		if (cnt == 1) printf("%d  %d", idx + 1, f);
+		else {
+			for (int i = 0; i < 3; i++) {
+				if (t < S[i][2]) {
+					t = S[i][2];
+					idx = i;
+				}
+			}
+			int cnt = 0;
+			for (int i = 0; i < 3; i++) {
+				if (S[i][2] == t) {
+					cnt++;
+				}
+			}
+			if (cnt == 1) printf("%d  %d", idx + 1, f);
+			else {
+				for (int i = 0; i < 3; i++) {
+					if (t < S[i][1]) {
+						t = S[i][1];
+						idx = i;
+					}
+				}
+				int cnt = 0;
+				for (int i = 0; i < 3; i++) {
+					if (S[i][1] == t) {
+						cnt++;
+					}
+				}
+			}
+		}
 	}
 	
 	return 0;

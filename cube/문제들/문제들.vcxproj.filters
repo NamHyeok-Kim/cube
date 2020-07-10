@@ -69,6 +69,9 @@
     <ClCompile Include="나는학급회장이다.c">
       <Filter>소스 파일\two</Filter>
     </ClCompile>
+    <ClCompile Include="주사위게임.c">
+      <Filter>소스 파일\two</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
