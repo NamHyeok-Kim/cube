@@ -78,6 +78,9 @@
     <ClCompile Include="떡먹는호랑이.c">
       <Filter>소스 파일\two</Filter>
     </ClCompile>
+    <ClCompile Include="숫자겟수.c">
+      <Filter>소스 파일\two</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
