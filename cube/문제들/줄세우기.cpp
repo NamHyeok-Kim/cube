@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// vector<vector<int>> A(s,vector<int>(s));
+
 int main()
 {
 	ifstream fin;
@@ -20,12 +22,11 @@ int main()
 	for (int i = 0; i < s; i++) {//5
 		int ticket;
 		fin >> ticket;
-		for (int j = 0; j < ticket; j++) {//6
-			int tmp = N[i];
-			N[i] = N[j + i - ticket ];
-			N[j + i - ticket ] = tmp;
+		int tmp2 = N[i];
+		for (int j = i; j > i - ticket; j--) {//6
+			N[j] = N[j - 1];
 		}
-		
+		N[i - ticket] = tmp2;
 	}
 	cout << endl;
 
