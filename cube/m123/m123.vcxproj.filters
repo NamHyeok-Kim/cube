@@ -38,5 +38,11 @@
     <ClCompile Include="인공지능 시계.cpp">
       <Filter>소스 파일\m_1</Filter>
     </ClCompile>
+    <ClCompile Include="지능형기차2.cpp">
+      <Filter>소스 파일\m_1</Filter>
+    </ClCompile>
+    <ClCompile Include="점수계산.cpp">
+      <Filter>소스 파일\m_1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
