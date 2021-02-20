@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/eugene/eugene-lab/C:C++/cube/cube/algorithm/bfs_dfs.cpp
+iostream
+-
+vector
+-
+queue
+-
+algorithm
+-
+
