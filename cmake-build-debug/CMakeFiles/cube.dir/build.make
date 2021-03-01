@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eugene/eugene-lab/C:C++/cube
+CMAKE_SOURCE_DIR = /Users/eugene/eugene-lab/C:C++/cube/algorithm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eugene/eugene-lab/C:C++/cube/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/eugene/eugene-lab/C:C++/cube/algorithm/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cube.dir/depend.make
@@ -77,30 +77,60 @@ include CMakeFiles/cube.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cube.dir/flags.make
 
-CMakeFiles/cube.dir/cube/algorithm/bfs_dfs.cpp.o: CMakeFiles/cube.dir/flags.make
-CMakeFiles/cube.dir/cube/algorithm/bfs_dfs.cpp.o: ../cube/algorithm/bfs_dfs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eugene/eugene-lab/C:C++/cube/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cube.dir/cube/algorithm/bfs_dfs.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cube.dir/cube/algorithm/bfs_dfs.cpp.o -c /Users/eugene/eugene-lab/C:C++/cube/cube/algorithm/bfs_dfs.cpp
+CMakeFiles/cube.dir/cube/e_3/tomato.cpp.o: CMakeFiles/cube.dir/flags.make
+CMakeFiles/cube.dir/cube/e_3/tomato.cpp.o: ../cube/e_3/tomato.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eugene/eugene-lab/C:C++/cube/algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cube.dir/cube/e_3/tomato.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cube.dir/cube/e_3/tomato.cpp.o -c /Users/eugene/eugene-lab/C:C++/cube/algorithm/cube/e_3/tomato.cpp
 
-CMakeFiles/cube.dir/cube/algorithm/bfs_dfs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cube.dir/cube/algorithm/bfs_dfs.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eugene/eugene-lab/C:C++/cube/cube/algorithm/bfs_dfs.cpp > CMakeFiles/cube.dir/cube/algorithm/bfs_dfs.cpp.i
+CMakeFiles/cube.dir/cube/e_3/tomato.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cube.dir/cube/e_3/tomato.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eugene/eugene-lab/C:C++/cube/algorithm/cube/e_3/tomato.cpp > CMakeFiles/cube.dir/cube/e_3/tomato.cpp.i
 
-CMakeFiles/cube.dir/cube/algorithm/bfs_dfs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cube.dir/cube/algorithm/bfs_dfs.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eugene/eugene-lab/C:C++/cube/cube/algorithm/bfs_dfs.cpp -o CMakeFiles/cube.dir/cube/algorithm/bfs_dfs.cpp.s
+CMakeFiles/cube.dir/cube/e_3/tomato.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cube.dir/cube/e_3/tomato.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eugene/eugene-lab/C:C++/cube/algorithm/cube/e_3/tomato.cpp -o CMakeFiles/cube.dir/cube/e_3/tomato.cpp.s
+
+CMakeFiles/cube.dir/cube/algorithm/trees_parents.cpp.o: CMakeFiles/cube.dir/flags.make
+CMakeFiles/cube.dir/cube/algorithm/trees_parents.cpp.o: ../cube/algorithm/trees_parents.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eugene/eugene-lab/C:C++/cube/algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cube.dir/cube/algorithm/trees_parents.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cube.dir/cube/algorithm/trees_parents.cpp.o -c /Users/eugene/eugene-lab/C:C++/cube/algorithm/cube/algorithm/trees_parents.cpp
+
+CMakeFiles/cube.dir/cube/algorithm/trees_parents.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cube.dir/cube/algorithm/trees_parents.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eugene/eugene-lab/C:C++/cube/algorithm/cube/algorithm/trees_parents.cpp > CMakeFiles/cube.dir/cube/algorithm/trees_parents.cpp.i
+
+CMakeFiles/cube.dir/cube/algorithm/trees_parents.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cube.dir/cube/algorithm/trees_parents.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eugene/eugene-lab/C:C++/cube/algorithm/cube/algorithm/trees_parents.cpp -o CMakeFiles/cube.dir/cube/algorithm/trees_parents.cpp.s
+
+CMakeFiles/cube.dir/cube/algorithm/tree_traversal.cpp.o: CMakeFiles/cube.dir/flags.make
+CMakeFiles/cube.dir/cube/algorithm/tree_traversal.cpp.o: ../cube/algorithm/tree_traversal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eugene/eugene-lab/C:C++/cube/algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cube.dir/cube/algorithm/tree_traversal.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cube.dir/cube/algorithm/tree_traversal.cpp.o -c /Users/eugene/eugene-lab/C:C++/cube/algorithm/cube/algorithm/tree_traversal.cpp
+
+CMakeFiles/cube.dir/cube/algorithm/tree_traversal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cube.dir/cube/algorithm/tree_traversal.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eugene/eugene-lab/C:C++/cube/algorithm/cube/algorithm/tree_traversal.cpp > CMakeFiles/cube.dir/cube/algorithm/tree_traversal.cpp.i
+
+CMakeFiles/cube.dir/cube/algorithm/tree_traversal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cube.dir/cube/algorithm/tree_traversal.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eugene/eugene-lab/C:C++/cube/algorithm/cube/algorithm/tree_traversal.cpp -o CMakeFiles/cube.dir/cube/algorithm/tree_traversal.cpp.s
 
 # Object files for target cube
 cube_OBJECTS = \
-"CMakeFiles/cube.dir/cube/algorithm/bfs_dfs.cpp.o"
+"CMakeFiles/cube.dir/cube/e_3/tomato.cpp.o" \
+"CMakeFiles/cube.dir/cube/algorithm/trees_parents.cpp.o" \
+"CMakeFiles/cube.dir/cube/algorithm/tree_traversal.cpp.o"
 
 # External object files for target cube
 cube_EXTERNAL_OBJECTS =
 
-cube: CMakeFiles/cube.dir/cube/algorithm/bfs_dfs.cpp.o
+cube: CMakeFiles/cube.dir/cube/e_3/tomato.cpp.o
+cube: CMakeFiles/cube.dir/cube/algorithm/trees_parents.cpp.o
+cube: CMakeFiles/cube.dir/cube/algorithm/tree_traversal.cpp.o
 cube: CMakeFiles/cube.dir/build.make
 cube: CMakeFiles/cube.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eugene/eugene-lab/C:C++/cube/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cube"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eugene/eugene-lab/C:C++/cube/algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable cube"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cube.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +143,6 @@ CMakeFiles/cube.dir/clean:
 .PHONY : CMakeFiles/cube.dir/clean
 
 CMakeFiles/cube.dir/depend:
-	cd /Users/eugene/eugene-lab/C:C++/cube/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eugene/eugene-lab/C:C++/cube /Users/eugene/eugene-lab/C:C++/cube /Users/eugene/eugene-lab/C:C++/cube/cmake-build-debug /Users/eugene/eugene-lab/C:C++/cube/cmake-build-debug /Users/eugene/eugene-lab/C:C++/cube/cmake-build-debug/CMakeFiles/cube.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eugene/eugene-lab/C:C++/cube/algorithm/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eugene/eugene-lab/C:C++/cube/algorithm /Users/eugene/eugene-lab/C:C++/cube/algorithm /Users/eugene/eugene-lab/C:C++/cube/algorithm/cmake-build-debug /Users/eugene/eugene-lab/C:C++/cube/algorithm/cmake-build-debug /Users/eugene/eugene-lab/C:C++/cube/algorithm/cmake-build-debug/CMakeFiles/cube.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cube.dir/depend
 

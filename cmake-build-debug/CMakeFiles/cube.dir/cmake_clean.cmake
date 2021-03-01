@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cube.dir/cube/algorithm/bfs_dfs.cpp.o"
+  "CMakeFiles/cube.dir/cube/algorithm/tree_traversal.cpp.o"
+  "CMakeFiles/cube.dir/cube/algorithm/trees_parents.cpp.o"
+  "CMakeFiles/cube.dir/cube/e_3/tomato.cpp.o"
   "cube"
   "cube.pdb"
 )

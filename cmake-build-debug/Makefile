@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eugene/eugene-lab/C:C++/cube
+CMAKE_SOURCE_DIR = /Users/eugene/eugene-lab/C:C++/cube/algorithm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eugene/eugene-lab/C:C++/cube/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/eugene/eugene-lab/C:C++/cube/algorithm/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eugene/eugene-lab/C:C++/cube/cmake-build-debug/CMakeFiles /Users/eugene/eugene-lab/C:C++/cube/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eugene/eugene-lab/C:C++/cube/algorithm/cmake-build-debug/CMakeFiles /Users/eugene/eugene-lab/C:C++/cube/algorithm/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eugene/eugene-lab/C:C++/cube/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eugene/eugene-lab/C:C++/cube/algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,32 +143,86 @@ cube/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/build
 .PHONY : cube/fast
 
-cube/algorithm/bfs_dfs.o: cube/algorithm/bfs_dfs.cpp.o
+cube/algorithm/tree_traversal.o: cube/algorithm/tree_traversal.cpp.o
 
-.PHONY : cube/algorithm/bfs_dfs.o
+.PHONY : cube/algorithm/tree_traversal.o
 
 # target to build an object file
-cube/algorithm/bfs_dfs.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/cube/algorithm/bfs_dfs.cpp.o
-.PHONY : cube/algorithm/bfs_dfs.cpp.o
+cube/algorithm/tree_traversal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/cube/algorithm/tree_traversal.cpp.o
+.PHONY : cube/algorithm/tree_traversal.cpp.o
 
-cube/algorithm/bfs_dfs.i: cube/algorithm/bfs_dfs.cpp.i
+cube/algorithm/tree_traversal.i: cube/algorithm/tree_traversal.cpp.i
 
-.PHONY : cube/algorithm/bfs_dfs.i
+.PHONY : cube/algorithm/tree_traversal.i
 
 # target to preprocess a source file
-cube/algorithm/bfs_dfs.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/cube/algorithm/bfs_dfs.cpp.i
-.PHONY : cube/algorithm/bfs_dfs.cpp.i
+cube/algorithm/tree_traversal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/cube/algorithm/tree_traversal.cpp.i
+.PHONY : cube/algorithm/tree_traversal.cpp.i
 
-cube/algorithm/bfs_dfs.s: cube/algorithm/bfs_dfs.cpp.s
+cube/algorithm/tree_traversal.s: cube/algorithm/tree_traversal.cpp.s
 
-.PHONY : cube/algorithm/bfs_dfs.s
+.PHONY : cube/algorithm/tree_traversal.s
 
 # target to generate assembly for a file
-cube/algorithm/bfs_dfs.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/cube/algorithm/bfs_dfs.cpp.s
-.PHONY : cube/algorithm/bfs_dfs.cpp.s
+cube/algorithm/tree_traversal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/cube/algorithm/tree_traversal.cpp.s
+.PHONY : cube/algorithm/tree_traversal.cpp.s
+
+cube/algorithm/trees_parents.o: cube/algorithm/trees_parents.cpp.o
+
+.PHONY : cube/algorithm/trees_parents.o
+
+# target to build an object file
+cube/algorithm/trees_parents.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/cube/algorithm/trees_parents.cpp.o
+.PHONY : cube/algorithm/trees_parents.cpp.o
+
+cube/algorithm/trees_parents.i: cube/algorithm/trees_parents.cpp.i
+
+.PHONY : cube/algorithm/trees_parents.i
+
+# target to preprocess a source file
+cube/algorithm/trees_parents.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/cube/algorithm/trees_parents.cpp.i
+.PHONY : cube/algorithm/trees_parents.cpp.i
+
+cube/algorithm/trees_parents.s: cube/algorithm/trees_parents.cpp.s
+
+.PHONY : cube/algorithm/trees_parents.s
+
+# target to generate assembly for a file
+cube/algorithm/trees_parents.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/cube/algorithm/trees_parents.cpp.s
+.PHONY : cube/algorithm/trees_parents.cpp.s
+
+cube/e_3/tomato.o: cube/e_3/tomato.cpp.o
+
+.PHONY : cube/e_3/tomato.o
+
+# target to build an object file
+cube/e_3/tomato.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/cube/e_3/tomato.cpp.o
+.PHONY : cube/e_3/tomato.cpp.o
+
+cube/e_3/tomato.i: cube/e_3/tomato.cpp.i
+
+.PHONY : cube/e_3/tomato.i
+
+# target to preprocess a source file
+cube/e_3/tomato.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/cube/e_3/tomato.cpp.i
+.PHONY : cube/e_3/tomato.cpp.i
+
+cube/e_3/tomato.s: cube/e_3/tomato.cpp.s
+
+.PHONY : cube/e_3/tomato.s
+
+# target to generate assembly for a file
+cube/e_3/tomato.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/cube/e_3/tomato.cpp.s
+.PHONY : cube/e_3/tomato.cpp.s
 
 # Help Target
 help:
@@ -179,9 +233,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cube"
-	@echo "... cube/algorithm/bfs_dfs.o"
-	@echo "... cube/algorithm/bfs_dfs.i"
-	@echo "... cube/algorithm/bfs_dfs.s"
+	@echo "... cube/algorithm/tree_traversal.o"
+	@echo "... cube/algorithm/tree_traversal.i"
+	@echo "... cube/algorithm/tree_traversal.s"
+	@echo "... cube/algorithm/trees_parents.o"
+	@echo "... cube/algorithm/trees_parents.i"
+	@echo "... cube/algorithm/trees_parents.s"
+	@echo "... cube/e_3/tomato.o"
+	@echo "... cube/e_3/tomato.i"
+	@echo "... cube/e_3/tomato.s"
 .PHONY : help
 
 
